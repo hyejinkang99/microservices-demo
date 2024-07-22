@@ -20,7 +20,7 @@ ingress:
 cartsdb:
     image:
         repo: mongo
-        tag: 4.4.0
+        tag: 4.4.6
     resources:
         requests:
             cpu: 500m
@@ -100,7 +100,7 @@ loadtest:
 ordersdb:
     image:
         repo: mongo
-        tag: 4.4.0
+        tag: 4.4.6
     resources:
         requests:
             cpu: 500m
